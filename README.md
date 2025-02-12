@@ -50,3 +50,33 @@ colcon build
 3- There will be a few folders created under the workspace folder and one of them is called "install" and there is a setup.bash file which will source it and it can install all requirements.
 
 Now we are ready!
+
+
+### Part 4: Create a package
+
+1- first cd to the workspace folder and the "src" subfloder:
+
+```
+cd ros2_ws/src
+```
+
+2- run the following:
+
+```
+ros2 pkg create my_robot_controller --build-type ament_python --dependencies rclpy
+```
+
+rclpy is a ros2 python library. 
+
+- The hierarchy of a project is workspace/package/nodes
+
+- Sometimes we will have dependencies between the packages. 
+
+
+3- finally we need to get back to the workspace folder and run:
+```
+colcon build
+```
+
+Now we have all we need to start writing some code!
+
