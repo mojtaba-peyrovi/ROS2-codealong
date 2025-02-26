@@ -1,0 +1,17 @@
+[4.463s] Invoking command in '/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/build/my_robot_controller': PYTHONPATH=/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/build/my_robot_controller/build --no-deps symlink_data
+[5.851s] running develop
+[6.336s] running egg_info
+[6.339s] writing my_robot_controller.egg-info/PKG-INFO
+[6.347s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[6.354s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[6.360s] writing requirements to my_robot_controller.egg-info/requires.txt
+[6.364s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[6.436s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[6.564s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[6.579s] running build_ext
+[6.581s] Creating /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[6.607s] Installing test_node script to /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[6.641s] 
+[6.642s] Installed /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/build/my_robot_controller
+[6.646s] running symlink_data
+[6.779s] Invoked command in '/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/build/my_robot_controller/build --no-deps symlink_data

@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.000910] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.001715] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.099485] (-) TimerEvent: {}
+[0.200724] (-) TimerEvent: {}
+[0.305372] (-) TimerEvent: {}
+[0.409385] (-) TimerEvent: {}
+[0.512997] (-) TimerEvent: {}
+[0.618894] (-) TimerEvent: {}
+[0.725008] (-) TimerEvent: {}
+[0.826866] (-) TimerEvent: {}
+[0.930527] (-) TimerEvent: {}
+[1.033731] (-) TimerEvent: {}
+[1.136650] (-) TimerEvent: {}
+[1.237933] (-) TimerEvent: {}
+[1.343600] (-) TimerEvent: {}
+[1.449747] (-) TimerEvent: {}
+[1.555944] (-) TimerEvent: {}
+[1.661998] (-) TimerEvent: {}
+[1.768487] (-) TimerEvent: {}
+[1.912000] (-) TimerEvent: {}
+[2.017967] (-) TimerEvent: {}
+[2.122166] (-) TimerEvent: {}
+[2.226898] (-) TimerEvent: {}
+[2.331898] (-) TimerEvent: {}
+[2.435178] (-) TimerEvent: {}
+[2.540341] (-) TimerEvent: {}
+[2.646945] (-) TimerEvent: {}
+[2.753513] (-) TimerEvent: {}
+[2.860299] (-) TimerEvent: {}
+[2.966845] (-) TimerEvent: {}
+[3.070970] (-) TimerEvent: {}
+[3.174992] (-) TimerEvent: {}
+[3.279467] (-) TimerEvent: {}
+[3.384587] (-) TimerEvent: {}
+[3.488416] (-) TimerEvent: {}
+[3.548856] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/build/my_robot_controller/build'], 'cwd': '/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/build/my_robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mpeyrovi', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/mpeyrovi', 'OLDPWD': '/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mpeyrovi', 'NAME': 'UT-62', 'WSL_INTEROP': '/run/WSL/335_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Java/jdk-22/bin:/mnt/c/Users/mojtaba.peyrovi_urla/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/site-packages/pyspark/bin:/mnt/c/hadoop-3.3.5/bin:/mnt/c/Users/mojtaba.peyrovi_urla/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/mojtaba.peyrovi_urla/AppData/Local/Programs/Git/cmd:/mnt/c/Users/mojtaba.peyrovi_urla/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/mojtaba.peyrovi_urla/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin:/mnt/c/spark/bin:/mnt/c/hadoop/bin:/mnt/c/Users/mojtaba.peyrovi_urla/AppData/Local/Programs/Ollama:/mnt/c/Users/mojtaba.peyrovi_urla/AppData/Local/Programs/Ollama/ollama app.exe:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/install/my_robot_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/build/my_robot_controller', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[3.588820] (-) TimerEvent: {}
+[3.692533] (-) TimerEvent: {}
+[3.798996] (-) TimerEvent: {}
+[3.905331] (-) TimerEvent: {}
+[4.012417] (-) TimerEvent: {}
+[4.119001] (-) TimerEvent: {}
+[4.221700] (-) TimerEvent: {}
+[4.328419] (-) TimerEvent: {}
+[4.434448] (-) TimerEvent: {}
+[4.541197] (-) TimerEvent: {}
+[4.648014] (-) TimerEvent: {}
+[4.752037] (-) TimerEvent: {}
+[4.858808] (-) TimerEvent: {}
+[4.965410] (-) TimerEvent: {}
+[5.072070] (-) TimerEvent: {}
+[5.178661] (-) TimerEvent: {}
+[5.204412] (my_robot_controller) StdoutLine: {'line': b'running develop\n'}
+[5.279116] (-) TimerEvent: {}
+[5.383151] (-) TimerEvent: {}
+[5.489548] (-) TimerEvent: {}
+[5.594147] (-) TimerEvent: {}
+[5.700667] (-) TimerEvent: {}
+[5.783245] (my_robot_controller) StdoutLine: {'line': b'Removing /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)\n'}
+[5.801726] (-) TimerEvent: {}
+[5.852322] (my_robot_controller) CommandEnded: {'returncode': 0}
+[5.888396] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_robot_controller', 'build', '--build-base', '/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/build/my_robot_controller/build', 'install', '--record', '/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/build/my_robot_controller/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/src/my_robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mpeyrovi', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/mpeyrovi', 'OLDPWD': '/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mpeyrovi', 'NAME': 'UT-62', 'WSL_INTEROP': '/run/WSL/335_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Java/jdk-22/bin:/mnt/c/Users/mojtaba.peyrovi_urla/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/site-packages/pyspark/bin:/mnt/c/hadoop-3.3.5/bin:/mnt/c/Users/mojtaba.peyrovi_urla/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/mojtaba.peyrovi_urla/AppData/Local/Programs/Git/cmd:/mnt/c/Users/mojtaba.peyrovi_urla/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/mojtaba.peyrovi_urla/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin:/mnt/c/spark/bin:/mnt/c/hadoop/bin:/mnt/c/Users/mojtaba.peyrovi_urla/AppData/Local/Programs/Ollama:/mnt/c/Users/mojtaba.peyrovi_urla/AppData/Local/Programs/Ollama/ollama app.exe:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/install/my_robot_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/build/my_robot_controller', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[5.902261] (-) TimerEvent: {}
+[6.006976] (-) TimerEvent: {}
+[6.113879] (-) TimerEvent: {}
+[6.220506] (-) TimerEvent: {}
+[6.327206] (-) TimerEvent: {}
+[6.430551] (-) TimerEvent: {}
+[6.537315] (-) TimerEvent: {}
+[6.641643] (-) TimerEvent: {}
+[6.748597] (-) TimerEvent: {}
+[6.855415] (-) TimerEvent: {}
+[6.960000] (-) TimerEvent: {}
+[7.064536] (-) TimerEvent: {}
+[7.169103] (-) TimerEvent: {}
+[7.272338] (-) TimerEvent: {}
+[7.379323] (-) TimerEvent: {}
+[7.486060] (-) TimerEvent: {}
+[7.540733] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[7.549451] (my_robot_controller) StdoutLine: {'line': b'writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO\n'}
+[7.560453] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt\n'}
+[7.570349] (my_robot_controller) StdoutLine: {'line': b'writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt\n'}
+[7.577228] (my_robot_controller) StdoutLine: {'line': b'writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt\n'}
+[7.583673] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt\n'}
+[7.586304] (-) TimerEvent: {}
+[7.659099] (my_robot_controller) StdoutLine: {'line': b"reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[7.688060] (-) TimerEvent: {}
+[7.790466] (my_robot_controller) StdoutLine: {'line': b"writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[7.791866] (-) TimerEvent: {}
+[7.796272] (my_robot_controller) StdoutLine: {'line': b'running build\n'}
+[7.797631] (my_robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[7.822640] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/my_first_node.py -> /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[7.872587] (my_robot_controller) StdoutLine: {'line': b'running install\n'}
+[7.873702] (my_robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[7.892361] (-) TimerEvent: {}
+[7.903942] (my_robot_controller) StdoutLine: {'line': b'creating /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller\n'}
+[7.931512] (my_robot_controller) StdoutLine: {'line': b'copying /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/my_first_node.py -> /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller\n'}
+[7.996131] (-) TimerEvent: {}
+[8.008972] (my_robot_controller) StdoutLine: {'line': b'copying /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller\n'}
+[8.068670] (my_robot_controller) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/my_first_node.py to my_first_node.cpython-310.pyc\n'}
+[8.097784] (-) TimerEvent: {}
+[8.153875] (my_robot_controller) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc\n'}
+[8.200475] (-) TimerEvent: {}
+[8.227600] (my_robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[8.255604] (my_robot_controller) StdoutLine: {'line': b'copying resource/my_robot_controller -> /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages\n'}
+[8.297337] (my_robot_controller) StdoutLine: {'line': b'copying package.xml -> /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/install/my_robot_controller/share/my_robot_controller\n'}
+[8.300719] (-) TimerEvent: {}
+[8.330399] (my_robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.355420] (my_robot_controller) StdoutLine: {'line': b'Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info\n'}
+[8.401199] (-) TimerEvent: {}
+[8.507714] (-) TimerEvent: {}
+[8.613843] (-) TimerEvent: {}
+[8.720427] (-) TimerEvent: {}
+[8.781821] (my_robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[8.820883] (-) TimerEvent: {}
+[8.912052] (my_robot_controller) StdoutLine: {'line': b'Installing test_node script to /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[8.921521] (-) TimerEvent: {}
+[8.943450] (my_robot_controller) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/build/my_robot_controller/install.log'\n"}
+[8.985405] (my_robot_controller) CommandEnded: {'returncode': 0}
+[9.023669] (-) TimerEvent: {}
+[9.128094] (-) TimerEvent: {}
+[9.235022] (-) TimerEvent: {}
+[9.342754] (-) TimerEvent: {}
+[9.449654] (-) TimerEvent: {}
+[9.556469] (-) TimerEvent: {}
+[9.595047] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[9.613386] (-) EventReactorShutdown: {}

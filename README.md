@@ -80,3 +80,36 @@ colcon build
 
 Now we have all we need to start writing some code!
 
+
+### Part 5: Create the first node
+
+The first node is created inside ros2_ws/src/my_robot_controller/my_robot_controller/my_First_node.py.
+
+The code can run via terminal when we just say:  python3 my_first_node.py.  But now we want to run it as a ROS2 script and for this we need to convert the node into a package. It can happen inside setup.py and the name of the package should be added under "entry_points" like the following:
+```
+name of the node = <package_name>:<py file name>:<function name>
+
+test_node = test_node= my_first_controller.my_first_controller:main
+```
+
+Finally, we need to run the following in the terminal to get the node built:
+
+````
+colcon build  & source ~/.bashrc
+```
+
+The way we did, we need to do colcon build after any change. But this is the way to bypass it after each change. 
+
+```
+colcon build --symlink-install
+```
+
+after we run this, it builds once and afterwards, the next times it would do the build by itself and we dont need to do it manually. 
+
+After the build we need to source the workspace by running:
+'''
+source ~/ros2_ws/install/setup.bash
+'''
+
+
+

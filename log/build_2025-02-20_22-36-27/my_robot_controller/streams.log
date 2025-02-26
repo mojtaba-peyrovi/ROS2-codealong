@@ -1,0 +1,37 @@
+[9.105s] Invoking command in '/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/src/my_robot_controller': PYTHONPATH=/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_robot_controller build --build-base /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/build/my_robot_controller/build install --record /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[12.252s] running egg_info
+[12.266s] creating ../../../build/my_robot_controller/my_robot_controller.egg-info
+[12.276s] writing ../../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[12.303s] writing dependency_links to ../../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[12.325s] writing entry points to ../../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[12.339s] writing requirements to ../../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[12.352s] writing top-level names to ../../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[12.372s] writing manifest file '../../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[12.471s] reading manifest file '../../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[12.637s] writing manifest file '../../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[12.646s] running build
+[12.648s] running build_py
+[12.661s] creating /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/build/my_robot_controller/build
+[12.666s] creating /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/build/my_robot_controller/build/lib
+[12.674s] creating /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/build/my_robot_controller/build/lib/my_robot_controller
+[12.715s] copying my_robot_controller/my_first_node.py -> /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/build/my_robot_controller/build/lib/my_robot_controller
+[12.775s] copying my_robot_controller/__init__.py -> /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/build/my_robot_controller/build/lib/my_robot_controller
+[12.813s] running install
+[12.815s] running install_lib
+[12.890s] creating /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[12.936s] copying /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/build/my_robot_controller/build/lib/my_robot_controller/my_first_node.py -> /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[13.053s] copying /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[13.163s] byte-compiling /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/my_first_node.py to my_first_node.cpython-310.pyc
+[13.284s] byte-compiling /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[13.380s] running install_data
+[13.399s] creating /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/install/my_robot_controller/share/ament_index
+[13.407s] creating /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/install/my_robot_controller/share/ament_index/resource_index
+[13.415s] creating /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/install/my_robot_controller/share/ament_index/resource_index/packages
+[13.457s] copying resource/my_robot_controller -> /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/install/my_robot_controller/share/ament_index/resource_index/packages
+[13.525s] copying package.xml -> /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/install/my_robot_controller/share/my_robot_controller
+[13.565s] running install_egg_info
+[13.616s] Copying ../../../build/my_robot_controller/my_robot_controller.egg-info to /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[14.392s] running install_scripts
+[14.704s] Installing test_node script to /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/install/my_robot_controller/lib/my_robot_controller
+[14.751s] writing list of installed files to '/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/build/my_robot_controller/install.log'
+[14.855s] Invoked command in '/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_robot_controller build --build-base /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/build/my_robot_controller/build install --record /mnt/c/Users/mojtaba.peyrovi_urla/personal_projects/ROS2-codealong/build/my_robot_controller/install.log --single-version-externally-managed install_data
